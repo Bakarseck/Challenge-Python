@@ -1,3 +1,5 @@
+# The first challenges in python
+
 numberOfinput = int(input("Veuillez saisir un entier : "))
 listOfNumbers = []
 
@@ -18,7 +20,3 @@ else :
     beforLastNumber = listOfNumbers[numberOfinput - 2]
     product = lastNumber*beforLastNumber
     print(f"Les deux plus grands nombres sont {beforLastNumber} et {lastNumber} et leur produit est {product} ")
-
-
-
-
