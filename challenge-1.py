@@ -17,7 +17,7 @@ for element in str_number:
         listOfNumbers.append(int(element)) 
 
 # là je trie le tableau pour prendre les deux maximums qui seront en dernière position
-# c'est une fonction native de python
+# J'utilise la fonction sort() qui est une fonction native en python pour trier le tableau
 listOfNumbers.sort()
 
 # le tableau doit contenir le nombre d'éléments en haut !!!
