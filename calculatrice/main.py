@@ -47,7 +47,9 @@ gui = Tk()
 gui.configure(background="#101419")
 
 # Taille de la fenêtre
-# gui.geometry("198x385")
+gui.geometry("198x385")
+gui.minsize(198, 385)
+gui.maxsize(198, 385)
 
 # Title of the application
 gui.title("Calculatrice")
